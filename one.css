@@ -1,0 +1,15 @@
+body {background-color:#ffffcc;}
+
+.top-navbar {}
+.top-navbar a {padding:5px;text-decoration:none;font-family:'Lato-Regular', sans-serif;margin-left:4px;margin-right:4px;transition-duration:0.3s;}
+.top-navbar a:hover {border-bottom:1px solid black;padding-bottom:4px;color:#262626;}
+#ws-logo {float:left;font-family:'Lato-Bold', Verdana, sans-serif;margin-right:20px;}
+
+div.margin-10 {margin:10%;}
+div.body-cutoff {max-width:700px;margin:auto;margin-top:15%;}
+
+.float-r {float:right;}
+.float-l {float:left;}
+
+@font-face {font-family:Lato-Bold;src:url('Lato-Bold.ttf');}
+@font-face {font-family:Lato-Regular;src:url('Lato-Regular.ttf');}
