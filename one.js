@@ -22,3 +22,11 @@ function uthree() {
         x.style.display = "none";
     }
 }
+function ufour() {
+    var x = document.getElementById("ufour");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
