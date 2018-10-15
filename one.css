@@ -10,3 +10,23 @@ video {width:100%;}
 
 @font-face {font-family:HNL;src:url('HelveticaNeueLight.ttf');}
 @font-face {font-family:HNM;src:url('HelveticaNeueMedium.ttf');}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#body {
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
